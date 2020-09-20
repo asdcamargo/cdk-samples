@@ -11,7 +11,7 @@
 
 ## Example details
 
-- 1. stepFunctionInitializer: Lambda function that starts an execution of a StepFunctions pipeline
+- stepFunctionInitializer: Lambda function that starts an execution of a StepFunctions pipeline
   - Deployment: step-function-initializer-stack.ts
   - Code: lambdas/stepFunctionInitializer/index.js
   - IAM: Lambda function has the AWS Managed 'ExecutionRole' to write logs to CloudWatch as well as permission to run 'startExecution' on StepFunction.
